@@ -1,0 +1,10 @@
+default (
+    step_size; 0.1
+)
+
+params2 (
+    step_size; 0.2
+    emotion_state1; 0.25
+    emotion_state2; 0.5
+    emotion_state3; 0.75
+)

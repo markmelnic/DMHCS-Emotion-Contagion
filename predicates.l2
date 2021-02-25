@@ -1,0 +1,6 @@
+has_expressiveness; {AGENT, REAL}
+has_openness; {AGENT, REAL}
+has_channel_strength; {AGENT, AGENT, REAL}
+has_contagion_strength; {AGENT, AGENT, REAL}
+has_emotion_level; {AGENT, REAL}
+has_emotion_state; {AGENT, EMOTION_STATE}

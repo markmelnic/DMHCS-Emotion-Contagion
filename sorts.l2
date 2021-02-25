@@ -1,0 +1,2 @@
+AGENT; {arnie, bernie, charlie}
+EMOTION_STATE; {angry, sad, indifferent, happy}

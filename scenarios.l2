@@ -1,0 +1,28 @@
+default (
+    has_expressiveness {arnie, 0.2}; [1:50]
+    has_expressiveness {bernie, 0.8}; [1:50]
+    has_openness {arnie, 0.8}; [1:50]
+    has_openness {bernie, 0.2}; [1:50]
+    has_channel_strength {arnie, bernie, 1}; [1:50]
+    has_channel_strength {bernie, arnie, 1}; [1:50]
+    has_emotion_level {arnie, 0.02}; [1:2]
+    has_emotion_level {bernie, 0.8}; [1:2]
+)
+
+three_agents (
+    has_expressiveness {arnie, 0.2}; [1:50]
+    has_expressiveness {bernie, 0.8}; [1:50]
+    has_expressiveness {charlie, 0.5}; [1:50]
+    has_openness {arnie, 0.8}; [1:50]
+    has_openness {bernie, 0.2}; [1:50]
+    has_openness {charlie, 0.5}; [1:50]
+    has_channel_strength {arnie, bernie, 1}; [1:50]
+    has_channel_strength {arnie, charlie, 0.5}; [1:50]
+    has_channel_strength {bernie, arnie, 1}; [1:50]
+    has_channel_strength {bernie, charlie, 0.5}; [1:50]
+    has_channel_strength {charlie, arnie, 0.5}; [1:50]
+    has_channel_strength {charlie, bernie, 0.5}; [1:50]
+    has_emotion_level {arnie, 0.02}; [1:2]
+    has_emotion_level {bernie, 0.8}; [1:2]
+    has_emotion_level {charlie, 0.5}; [1:2]
+)
